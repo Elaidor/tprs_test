@@ -1,0 +1,14 @@
+@import './menu-burger.scss';
+
+.page-header{
+    position: fixed;
+    z-index: 160;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    transition-duration: .2s;
+}
+.page-header__wrapper{
+    @include wrapper;
+}

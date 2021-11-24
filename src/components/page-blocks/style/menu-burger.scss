@@ -1,0 +1,64 @@
+.menu-burger{
+    position: relative; 
+    width: 40px;
+    height: 35px;
+    display: block;
+    margin-left: 10px;
+}
+.menu-burger span, .menu-burger:after, .menu-burger:before{
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #515758;
+    margin: 0 auto;
+}
+.menu-burger span{
+    top: 16px;
+}
+.menu-burger:after, .menu-burger:before{
+    content: '';
+}
+.menu-burger:after{
+    bottom: 5px;
+}
+.menu-burger:before{
+    top: 5px;
+}
+.menu-burger.open-menu span {
+    opacity:0; 
+    transition: 0.5s; 
+}
+.menu-burger.open-menu:before {
+    transform: rotate(38deg);
+    top: 16px;
+    transition: 0.4s;
+}
+.menu-burger.open-menu:after {
+    transform: rotate(-38deg);
+    bottom: 16px;
+    transition: 0.4s;
+}
+.main-nav{
+    display: block;
+    position: absolute;
+    top: 82px;
+    background: rgb(245, 246, 246);
+    width: 100%;
+    box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+    transition: all 0.4s ease;
+    left: -100%;
+    overflow: auto;
+    z-index: 100;
+}
+.main-nav__list{
+    display: block;
+}
+.main-nav__item{
+    margin: 40px 0px 40px 33px;
+}
+.open-menu{
+    left:0;
+}
+.fixed-page{
+    overflow: hidden; 
+}

@@ -6,7 +6,7 @@ const uglify = require('gulp-uglify-es').default;
 const babel = require('gulp-babel');
 const concat = require('gulp-concat');
 
-module.exports = function build_js() {
+module.exports = function build__js() {
 	return src(['src/components/**/*.js', 'src/js/01_main.js'])
 		.pipe(uglify())
 		.pipe(babel({
