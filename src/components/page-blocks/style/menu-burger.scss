@@ -5,15 +5,14 @@
     display: block;
     cursor: pointer;
     &:hover span{
-        background: #569DDC;
+        background: $link-hover;
     }
-
 }
 .menu-burger span, .menu-burger:after, .menu-burger:before{
     height: 3px;
     width: 100%;
     position: absolute;
-    background: #004685;
+    background: $link-color;
     margin: 0 auto;
 }
 .menu-burger span{
@@ -30,7 +29,7 @@
 }
 .menu-burger:hover::after,
 .menu-burger:hover::before{
-    background: #569DDC;
+    background: $link-hover;
 }
 .menu-burger.open-menu span {
     opacity:0; 
@@ -50,19 +49,47 @@
     display: block;
     position: absolute;
     top: 82px;
-    background: rgb(245, 246, 246);
-    width: 100%;
-    box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
-    transition: all 0.4s ease;
     left: -100%;
+    width: 280px;
+    height: 100vh;
+    padding: 23px 18px;
+    background: #fff;
+    opacity: 0.95;
+    transition: all 0.4s ease;
     overflow: auto;
+    box-shadow: 0px 3px 12px #00000029;
     z-index: 100;
 }
 .main-nav__list{
     display: block;
+    list-style: none;
+    padding-left: 0;
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+}
+.main-nav__heading{
+    font-family: $font-bold;
+    text-transform: uppercase;
+    ul{
+        margin-top: 24px;
+    }
 }
 .main-nav__item{
-    margin: 40px 0px 40px 33px;
+    padding: 0;
+    font-family: $font-regular;
+    text-transform: none;
+    margin-bottom: 28px;
+}
+.main-nav__item_bottom{
+    margin-bottom: 46px;
+}
+.main-nav__link{
+    color: $link-color;
+    &:hover{
+        color:$link-hover
+    }
 }
 .open-menu{
     left:0;

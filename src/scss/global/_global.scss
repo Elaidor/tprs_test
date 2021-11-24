@@ -6,11 +6,15 @@
 $font-regular:'OpenSans-Regular',Arial,sans-serif;
 $font-semi:'OpenSans-SemiBold',Arial,sans-serif;
 $font-bold:'OpenSans-Bold',Arial,sans-serif;
+$link-color:#004685;
+$link-hover:#569DDC;
+$font-size-desktop:16px;
+$font-size-mobile:12px;
 
 body {
 	min-height: 100%;
 	position: relative;
-	font-size: 1rem;
+	font-size: $font-size-desktop;
 	color: #000;
 	font-family: $font-regular;
 }
