@@ -1,16 +1,19 @@
 .menu-burger{
     position: relative; 
-    width: 40px;
+    width: 30px;
     height: 35px;
     display: block;
-    margin-left: 10px;
     cursor: pointer;
+    &:hover span{
+        background: #569DDC;
+    }
+
 }
 .menu-burger span, .menu-burger:after, .menu-burger:before{
     height: 3px;
     width: 100%;
     position: absolute;
-    background: #515758;
+    background: #004685;
     margin: 0 auto;
 }
 .menu-burger span{
@@ -24,6 +27,10 @@
 }
 .menu-burger:before{
     top: 5px;
+}
+.menu-burger:hover::after,
+.menu-burger:hover::before{
+    background: #569DDC;
 }
 .menu-burger.open-menu span {
     opacity:0; 

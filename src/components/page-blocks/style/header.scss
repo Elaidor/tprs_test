@@ -1,6 +1,3 @@
-// $font-regular:'OpenSans-Regular',Arial,sans-serif;
-// $font-semi:'OpenSans-SemiBold',Arial,sans-serif;
-// $font-bold:'OpenSans-Bold',Arial,sans-serif;
 $link-color:#004685;
 $link-hover:#569DDC;
 
@@ -19,6 +16,22 @@ $link-hover:#569DDC;
 }
 .page-header__wrapper{
     @include wrapper;
+    padding:11px 24px 6px 33px ;
+}
+.main-logo{
+    margin-left: -30px;
+    margin-top: -2px;
+    svg{
+        margin-top: -5px;
+    }
+}
+.help-popup-logo:hover{
+    svg path{
+        fill:$link-hover;
+    }
+    #Ellipse_2{
+        stroke:$link-hover;
+    }
 }
 .help-popup{
     display: none;
@@ -38,8 +51,8 @@ $link-hover:#569DDC;
     flex-direction: column;
     justify-content: center;
     position: fixed;
-    top: 20%;
-	left: 50%;
+    top: 5%;
+    right: 1%;
 	padding:28px 16px;
 	width: 241px;
 	margin-left: -200px;	
