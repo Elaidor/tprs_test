@@ -1,4 +1,4 @@
-const plugins = [];
+const plugins = ['./node_modules/jquery/dist/jquery.min.js'];
 const { src, dest } = require('gulp');
 const uglify = require('gulp-uglify-es').default;
 const concat = require('gulp-concat');
