@@ -1,126 +1,130 @@
-@media (max-width: 899px){
+@media (max-width: 899px) {
+  .page-header__wrapper {
+    padding: 10px 19px 0 15px;
+  }
+  .help-popup-logo,
+  .main-logo {
+    display: none;
+  }
+  .main-logo__phone {
+    display: block;
+    height: 23px;
+  }
+  .menu-burger {
+    width: 20px;
+  }
+  .menu-burger:before {
+    top: 4px;
+  }
+  .menu-burger span {
+    top: 11px;
+  }
+  .menu-burger:after {
+    bottom: 15px;
+  }
+  .main-nav {
+    width: 100%;
+    top: 44px;
+    opacity: 1;
+  }
+  .account-form__block {
+    width: 100%;
+    height: 100vh;
+    padding: 21px 19px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    border-radius: 0;
+  }
+  .account-form_close {
+    top: -7px;
+    right: 9px;
+  }
+  .account_heading {
+    margin-bottom: 26px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  input[type='email'],
+  input[type='password'] {
+    padding: 16px 19px;
+  }
+  .account_button {
+    border-radius: 4px;
+    border: none;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    padding: 14px 32px;
+  }
+  .account_link {
+    font-size: 14px;
+  }
+  .main-nav__item {
+    font-size: 14px;
+  }
+  .main-nav__heading {
+    font-size: 14px;
+  }
 
-	.page-header__wrapper{
-        padding: 10px 19px 0 15px;
+  .wrapper {
+    width: 320px;
+  }
+  .bg-search-form {
+    background-position: 0 44px;
+  }
+  .search-form {
+    padding: 80px 0 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .search-heading {
+    font-size: 18px;
+    line-height: 27px;
+    align-self: center;
+  }
+  .input-block {
+    position: relative;
+  }
+  .search-button {
+    display: none;
+  }
+  .search-icon {
+    display: block;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    padding: 0;
+    top: 1%;
+    right: 3%;
+    svg {
+      width: 22px;
     }
-    .help-popup-logo,.main-logo{
-        display: none;
-    }
-    .main-logo__phone{
-        display: block;
-        height: 23px;
-    }
-    .menu-burger{
-        width: 20px;
-    }
-    .menu-burger:before {
-        top: 4px;
-    }
-    .menu-burger span {
-        top: 11px;
-    }
-    .menu-burger:after {
-        bottom: 15px;
-    }
-    .main-nav{
-        width: 100%;
-        top:44px;
-        opacity: 1;
-    }
-    .account-form__block{
-        width: 100%;
-        height: 100vh;
-        padding: 21px 19px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-left: 0;
-        border-radius: 0
-    }
-    .account-form_close{
-        top: -7px;
-        right: 9px;
-    }
-    .account_heading{
-        margin-bottom: 26px;
-        font-size: 14px;
-        line-height: 22px;
-    }
-    input[type=email], input[type=password]{
-        padding: 16px 19px;
-    }
-    .account_button{
-        border-radius: 4px;
-        border: none;
-        margin-top: 3px;
-        margin-bottom: 15px;
-        padding: 14px 32px;
-    }
-    .account_link{
-        font-size: 14px;
-    }
-    .main-nav__item{
-        font-size:14px;
-    }
-    .main-nav__heading{
-        font-size: 14px;
-    }
-
-    .wrapper{
-        width: 320px;
-    }
-    .bg-search-form{
-        background-position: 0 44px;
-    }
-    .search-form{
-        padding: 80px 0 35px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .search-heading{
-        font-size: 18px;
-        line-height: 27px;
-        align-self: center;
-    }
-    .input-block{
-        position: relative;
-    }
-    .search-button{
-        display: none;
-    }
-    .search-icon{
-        display: block;
-        background-color: transparent;
-        border: none;
-        position: absolute;
-        padding: 0;
-        top:1%;
-        right: 3%;
-        svg{
-            width: 22px;
-        }
-    }
-    .search-input{
-        width: 100%;
-        padding: 11px 12px;
-        border-radius: 2px;
-        font-size: 14px;
-    }
-    .search-field{
-        display: block;
-        align-self: center;
-        width: 90%;
-    }
-    .search-description{
-        font-size: 12px;
-        line-height: 16px;
-        width: 89%;
-        align-self: center;
-        margin-top: 6px;
-    }
-    .project-heading,.project-navigation,.project-item,hr{
-        display: none;
-    }
-    @import url(./__project-block_media.scss);
+  }
+  .search-input {
+    width: 100%;
+    padding: 11px 12px;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+  .search-field {
+    display: block;
+    align-self: center;
+    width: 90%;
+  }
+  .search-description {
+    font-size: 12px;
+    line-height: 16px;
+    width: 89%;
+    align-self: center;
+    margin-top: 6px;
+  }
+  .project-heading,
+  .project-navigation,
+  .project-item,
+  hr {
+    display: none;
+  }
+  @import url(./__project-block_media.scss);
 }
