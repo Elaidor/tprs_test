@@ -10,7 +10,7 @@
 	top: 0;
 	width: 100%; 
 	height: 100%;
-	opacity: 1;
+	opacity: 0.85;
 	z-index: 9999;
 }
 .account-form__block {
@@ -54,6 +54,11 @@ input[type="password"]{
     border-radius: 8px;
     margin-bottom: 16px;
 }
+input[type="email"]:focus,
+input[type="password"]:focus
+{
+    outline: none;
+}
 .account_button{
     width: 100%;
     font-family: $font-semi;
@@ -61,6 +66,7 @@ input[type="password"]{
     background-color: #D30531 ;
     color: #fff;
     border-radius: 8px;
+    border: none;
     margin-top: 7px;
     margin-bottom: 20px;
     padding: 14px 32px;
@@ -73,5 +79,45 @@ input[type="password"]{
     margin-top: 16px;
     &:hover{
         color: $link-hover;
+    }
+}
+
+.navigation-block{
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navigation-heading{
+    font-family: $font-semi;
+    font-size: 36px;
+    margin-bottom: 23px;
+    text-align: center;
+}
+.navigation{
+    max-width: 639px;
+    align-self: center;
+}
+.navigation-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+}
+.navigation-item{
+    margin-right: 28px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    &:last-child{
+        margin-right: 22px;
+    }
+    a{
+        color: $link-color;
+        line-height: 30px;
+        &:hover{
+            color: $link-hover;
+        }
     }
 }

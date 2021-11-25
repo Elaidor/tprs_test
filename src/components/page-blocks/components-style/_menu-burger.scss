@@ -16,16 +16,17 @@
     margin: 0 auto;
 }
 .menu-burger span{
-    top: 16px;
+    top: 22px;
 }
+
 .menu-burger:after, .menu-burger:before{
     content: '';
 }
 .menu-burger:after{
-    bottom: 5px;
+    bottom: 1px;
 }
 .menu-burger:before{
-    top: 5px;
+    top: 12px;
 }
 .menu-burger:hover::after,
 .menu-burger:hover::before{
@@ -48,7 +49,7 @@
 .main-nav{
     display: block;
     position: absolute;
-    top: 82px;
+    top: 68px;
     left: -100%;
     width: 280px;
     height: 100vh;

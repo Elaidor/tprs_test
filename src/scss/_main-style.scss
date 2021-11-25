@@ -1,0 +1,44 @@
+.bg-search-form{
+    background-image:url('./../img/pic_main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.search-form{
+    padding: 157px 10px 112px;
+}
+.search-heading{
+    font-family: $font-semi;
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 16px;
+
+}
+.search-field{
+    display: flex;
+    justify-content: space-between;
+}
+.search-input{
+    padding: 19px 24px;
+    border: 2px solid #00468533;
+    width: 800px;
+    border-radius: 8px;
+    &:focus{
+        outline: none;
+    }
+}
+.search-button{
+    padding: 14px 32px;
+    border: none;
+    background-color: #D30531;
+    border-radius: 8px;
+    font-family: $font-semi;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.search-description{
+    color: #FFFFFF;
+    line-height: 22px;
+    margin-top:13px;
+}
