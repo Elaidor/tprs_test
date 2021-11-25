@@ -45,9 +45,7 @@
     "imagemin-pngquant": "^9.0.2",
     "require-dir": "^1.2.0",
     "sass": "^1.43.4",
-    "vinyl-ftp": "^0.6.1"
-  },
-  "dependencies": {
+    "vinyl-ftp": "^0.6.1",
     "jquery": "^3.6.0"
   }
 }

@@ -1,11 +1,12 @@
 .bg-search-form{
     background-image:url('./../img/pic_main.png');
     background-repeat: no-repeat;
+    background-position: 0 68px;
     background-size: cover;
     width: 100%;
 }
 .search-form{
-    padding: 157px 10px 112px;
+    padding: 157px 0 112px 0;
 }
 .search-heading{
     font-family: $font-semi;
@@ -35,6 +36,7 @@
     border-radius: 8px;
     font-family: $font-semi;
     font-size: 24px;
+    line-height: 33px;
     color: #FFFFFF;
 }
 .search-description{
@@ -42,3 +44,86 @@
     line-height: 22px;
     margin-top:13px;
 }
+
+.project-block{
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    hr{
+        width: 100%;
+        color: #e6edf3;
+        opacity: 0.5;
+        margin-bottom: -4px;
+    }
+}
+.project-heading{
+    font-family: $font-semi;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+.project-navigation{
+    max-width: 639px;
+    margin: 15px auto 7px;
+    align-self: center;
+}
+.navigation-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+}
+.navigation-item{
+    margin-right: 28px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    &:last-child{
+        margin-right: 22px;
+    }
+    a{
+        color: $link-color;
+        line-height: 30px;
+        &:hover{
+            color: $link-hover;
+        }
+    }
+}
+.project-list{
+    list-style: none;
+    padding-left: 0;
+}
+.project-item-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 61px 0;
+}
+.project-item__description{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+.description-heading{
+    font-family: $font-semi;
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 23px;
+}
+.project-text{
+    line-height: 24px;
+}
+.text-m-bottom{
+    margin-bottom: 11px;
+}
+.project-item_focus-heading{
+    display: block;
+    font-family: $font-bold;
+    text-transform: uppercase;
+    margin-top: 37px;
+    line-height: 24px;
+    color: #D30531
+}
+
