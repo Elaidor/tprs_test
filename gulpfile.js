@@ -9,7 +9,6 @@ exports.libs_js = tasks.libs_js;
 exports.dev_js = tasks.dev_js;
 exports.html = tasks.html;
 exports.rastr = tasks.rastr;
-exports.webp = tasks.webp;
 exports.ttf = tasks.ttf;
 exports.fonts = tasks.fonts;
 exports.bs_html = tasks.bs_html;
@@ -21,7 +20,6 @@ exports.default = gulp.parallel(
 	exports.libs_js,
 	exports.dev_js,
 	exports.rastr,
-	exports.webp,
 	exports.ttf,
 	exports.fonts,
 	exports.html,

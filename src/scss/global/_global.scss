@@ -3,25 +3,20 @@
 *::after {
 	box-sizing: border-box;
 }
+$font-regular:'OpenSans-Regular',Arial,sans-serif;
+$font-semi:'OpenSans-SemiBold',Arial,sans-serif;
+$font-bold:'OpenSans-Bold',Arial,sans-serif;
+$link-color:#004685;
+$link-hover:#569DDC;
+$font-size-desktop:16px;
+$font-size-mobile:12px;
 
-.flex {
-	display: flex;
-	align-items: flex-start;
-	justify-content: flex-start;
-}
-
-html {
-	font-size: 16px;
-}
-
-html,
 body {
 	min-height: 100%;
 	position: relative;
-}
-
-body {
-	font-size: 1rem;
+	font-size: $font-size-desktop;
+	color: #000;
+	font-family: $font-regular;
 }
 
 ul,
@@ -36,3 +31,4 @@ h5,
 h6 {
 	margin: 0;
 }
+
