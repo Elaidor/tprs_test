@@ -15,20 +15,16 @@ body {
 	min-height: 100%;
 	position: relative;
 	font-size: $font-size-desktop;
-	color: #000;
 	font-family: $font-regular;
+	color: #000000;
+	
 }
 
-ul,
-ol,
-li,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+ul,ol,li,p,h1,h2,h3,h4,h5,h6,hr {
 	margin: 0;
 }
 
+.wrapper{
+	width:960px;
+	margin: 0 auto;
+}
