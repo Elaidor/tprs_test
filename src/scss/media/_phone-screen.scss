@@ -24,6 +24,8 @@
     }
     .main-nav{
         width: 100%;
+        top:44px;
+        opacity: 1;
     }
     .account-form__block{
         width: 100%;
@@ -120,4 +122,5 @@
     .project-heading,.project-navigation,.project-item,hr{
         display: none;
     }
+    @import url(./__project-block_media.scss);
 }

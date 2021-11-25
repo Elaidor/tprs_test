@@ -1,3 +1,46 @@
+
 .project-block-dropdown{
     display: block;
+    width: 98%;
+    margin: 0 auto;
+    padding: 26px 0;
+}
+.project-block-dropdown__heading{
+    font-family: $font-semi;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.project-block-dropdown__list{
+    list-style: none;
+    padding-left: 6px;
+}
+.project-block_click{
+    cursor: pointer;
+}
+.project-dropdown_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-left{
+    display: flex;
+    align-items:center;
+    span{
+        margin-left: 18px;
+    }
+}
+.item-left_svg{
+    height: 44px;
+    width: 44px;
+}
+.dropdown-icon{
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.project-dropdown__information{
+    display: none;
 }
