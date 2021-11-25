@@ -1,0 +1,18 @@
+.page-footer{
+    background-color:#ccdae7;
+    width: 100%;
+    padding: 31px 33px 40px;
+}
+.page-footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.page-footer__license{
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    font-family: $font-semi;
+    width: 40%;
+    font-size: 16px;
+    line-height: 22px;
+}
