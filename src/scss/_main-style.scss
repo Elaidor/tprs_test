@@ -29,6 +29,9 @@
         outline: none;
     }
 }
+.search-icon{
+    display: none;
+}
 .search-button{
     padding: 14px 32px;
     border: none;
@@ -43,6 +46,9 @@
     color: #FFFFFF;
     line-height: 22px;
     margin-top:13px;
+}
+.project-block-dropdown{
+    display: none;
 }
 
 .project-block{

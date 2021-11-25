@@ -1,6 +1,7 @@
 @media (max-width: 899px){
+
 	.page-header__wrapper{
-        padding: 10px 19px 4px 15px;
+        padding: 10px 19px 0 15px;
     }
     .help-popup-logo,.main-logo{
         display: none;
@@ -55,5 +56,68 @@
     }
     .account_link{
         font-size: 14px;
+    }
+    .main-nav__item{
+        font-size:14px;
+    }
+    .main-nav__heading{
+        font-size: 14px;
+    }
+
+    .wrapper{
+        width: 320px;
+    }
+    .bg-search-form{
+        background-position: 0 44px;
+    }
+    .search-form{
+        padding: 80px 0 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .search-heading{
+        font-size: 18px;
+        line-height: 27px;
+        align-self: center;
+    }
+    .input-block{
+        position: relative;
+    }
+    .search-button{
+        display: none;
+    }
+    .search-icon{
+        display: block;
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        padding: 0;
+        top:1%;
+        right: 3%;
+        svg{
+            width: 22px;
+        }
+    }
+    .search-input{
+        width: 100%;
+        padding: 11px 12px;
+        border-radius: 2px;
+        font-size: 14px;
+    }
+    .search-field{
+        display: block;
+        align-self: center;
+        width: 90%;
+    }
+    .search-description{
+        font-size: 12px;
+        line-height: 16px;
+        width: 89%;
+        align-self: center;
+        margin-top: 6px;
+    }
+    .project-heading,.project-navigation,.project-item,hr{
+        display: none;
     }
 }

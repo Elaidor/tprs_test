@@ -8,18 +8,28 @@
 	})
 
 <body>
+	<!-- Шапка сайта -->
 	@@include('components/page-blocks/_header.html')
-	<!-- <main class="main">
+	<main class="main">
+		<!-- Экран с поиском -->
 		<section class="bg-search-form">
 			<form class="search-form wrapper" action="" method="">
 				<h2 class="search-heading">Поиск начислений</h2>
 				<div class="search-field">
-					<input class="search-input" type="search" name="search" autofocus placeholder="Введите данные для поиска">
+					<label class="input-block">
+						<input class="search-input" type="search" name="search" autofocus placeholder="Введите данные для поиска">
+						<button class="search-icon" type="submit">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.a{fill:none;}.b{fill:#004685;}</style></defs><g transform="translate(-6 -6)"><rect class="a" width="24" height="24" transform="translate(6 6)"/><path class="b" d="M-1610.292,30.085l-3.564-3.565q-.054-.054-.1-.111a9.176,9.176,0,0,1-5.245,1.629,9.18,9.18,0,0,1-6.534-2.706,9.18,9.18,0,0,1-2.707-6.535,9.177,9.177,0,0,1,2.707-6.534,9.177,9.177,0,0,1,6.534-2.707,9.183,9.183,0,0,1,6.535,2.706,9.183,9.183,0,0,1,2.706,6.535,9.176,9.176,0,0,1-1.63,5.245q.057.048.111.1l3.564,3.565a1.68,1.68,0,0,1,0,2.376,1.675,1.675,0,0,1-1.188.492A1.675,1.675,0,0,1-1610.292,30.085Zm-13.663-16.04a6.728,6.728,0,0,0,0,9.5,6.728,6.728,0,0,0,9.5,0,6.728,6.728,0,0,0,0-9.5,6.7,6.7,0,0,0-4.753-1.966A6.7,6.7,0,0,0-1623.955,14.045Z" transform="translate(1636.444 -1.556)"/></g></svg>
+						</button>
+					</label>
 					<button class="search-button" type="submit">Найти</button>
 				</div>
 				<p class="search-description">Чем больше параметров введено, тем полнее результаты поиска</p>
 			</form>
 		</section>
+		<!-- Экран с информацией о способах оплаты с раскрывающимися блоками-->
+		@@include('components/page-blocks/_project-block_media.html')
+		<!-- Экран с информацией о способах оплаты Desctop -->
 		<section class="project-block">
 			<h2 class="project-heading wrapper">Здесь можно оплатить</h2>
 			<nav class="project-navigation">
@@ -40,13 +50,13 @@
 						<span class="project-item_focus-heading">ПЛАТИТЬ ВОВРЕМЯ — ДЕШЕВЛЕ!</span>
 						<p class="project-text">В первые 20 дней после выдачи постановления штраф можно оплатить со скидкой 50%.   Для своевременной оплаты штрафов настройте уведомления в Личном кабинете.</p>
 					</div>
-					<img src="./img/pic_block1.png" alt="fines">
+					<img class="project-item__img" src="./img/pic_block1.png" alt="fines">
 				</div>
 			</div>
 			<hr>
 			<div id="debts_anchor" class="debts-block project-item wrapper">
 				<div class="project-item-wrapper">
-					<img src="./img/pic_block2.png" alt="debts">
+					<img class="project-item__img" src="./img/pic_block2.png" alt="debts">
 					<div class="project-item__description">
 						<h3 class="description-heading">Судебные задолженности</h3>
 						<p class="project-text  text-m-bottom">Для поиска начислений в ГИС ГМП укажите документы: паспорт РФ, ИНН, СНИЛС или номер Исполнительного производства.</p>
@@ -65,13 +75,13 @@
 						<span class="project-item_focus-heading">ВАЖНО!</span>
 						<p class="project-text">Согласно законодательству РФ вы не можете оплачивать налоги за других физических лиц. Принимаются только платежи физических лиц.</p>
 					</div>
-					<img src="./img/pic_block3.png" alt="taxes">
+					<img class="project-item__img" src="./img/pic_block3.png" alt="taxes">
 				</div>
 			</div>
 			<hr>
 			<div id="services_anchor" class="services-block project-item wrapper">
 				<div class="project-item-wrapper">
-					<img src="./img/pic_block4.png" alt="services">
+					<img class="project-item__img" src="./img/pic_block4.png" alt="services">
 					<div class="project-item__description">
 						<h3 class="description-heading">Услуги Росреестра</h3>
 						<p class="project-text">В поисковой строке укажите Код платежа, который был отправлен вам на почтовый ящик, указанный при подаче запроса в Росреестре.</p>
@@ -81,7 +91,8 @@
 				</div>
 			</div>
 		</section>
-		<section class="partnership wrapper">
+		<!-- Подвал сайта -->
+		<!-- <section class="partnership wrapper">
 			<h2 class="partner-heading">С нами работают</h2>
 			<div class="partner-block">
 				<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -176,9 +187,10 @@
 					<figcaption><span class="partner-text">Партнер 6<br>с длинным названием</span></figcaption>
 				</figure>
 			</div>
-		</section>
-	</main> -->
+		</section>  -->
+	</main>
 	<!-- @@include('components/page-blocks/_footer.html') -->
+	<!-- Подключение скриптов -->
 	@@include('components/page-blocks/_scripts.html')
 </body>
 
