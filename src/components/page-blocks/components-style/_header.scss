@@ -22,6 +22,9 @@
         margin-top: -5px;
     }
 }
+.main-logo__phone{
+    display: none;
+}
 .help-popup-logo:hover{
     svg path{
         fill:$link-hover;
