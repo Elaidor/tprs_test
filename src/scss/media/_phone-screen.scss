@@ -111,6 +111,7 @@
   }
   .input-block {
     position: relative;
+    width: 100%;
     &:hover svg{
       fill:$link-hover
     }
@@ -124,7 +125,7 @@
     border: none;
     position: absolute;
     padding: 0;
-    top: 1%;
+    top: 19%;
     right: 3%;
     svg {
       width: 22px;
@@ -139,7 +140,6 @@
   }
   .search-field {
     display: block;
-    position: relative;
     align-self: center;
     width: 90%;
   }
@@ -160,6 +160,11 @@
     width: 98%;
     margin: 0 auto;
     padding: 27px 0;
+    & svg path{
+      fill: $link-color;
+      height: 44px;
+      width:  44px;
+    }
   }
   .project-block-dropdown__heading {
     font-family: $font-semi;
