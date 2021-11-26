@@ -15,14 +15,14 @@ exports.bs_html = tasks.bs_html;
 exports.watch = tasks.watch;
 
 exports.default = gulp.parallel(
-	exports.libs_style,
-	exports.style,
-	exports.libs_js,
-	exports.dev_js,
-	exports.rastr,
-	exports.ttf,
-	exports.fonts,
-	exports.html,
-	exports.bs_html,
-	exports.watch
-)
+  exports.libs_style,
+  exports.style,
+  exports.libs_js,
+  exports.dev_js,
+  exports.rastr,
+  exports.ttf,
+  exports.fonts,
+  exports.html,
+  exports.bs_html,
+  exports.watch,
+);

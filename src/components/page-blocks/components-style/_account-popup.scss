@@ -1,83 +1,81 @@
 .account-form {
-	display: none;
-    padding: 40px;
+  display: none;
+  padding: 40px;
 }
 .account-form:before {
-	content: '';
-	background: #000;
-	position: fixed; 
-	left: 0;
-	top: 0;
-	width: 100%; 
-	height: 100%;
-	opacity: 0.85;
-	z-index: 9999;
+  content: '';
+  background: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  z-index: 9999;
 }
 .account-form__block {
-	position: fixed;
-    display: flex;
-    flex-direction: column;
-	top: 20%;
-	left: 50%;
-	padding: 40px;
-	width: 400px;
-	margin-left: -200px;	
-	background: #fff;
-	box-shadow: 0px 3px 6px #00000029;
-	border-radius: 2px; 
-	z-index: 99999;
-	opacity: 1;	
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 20%;
+  left: 50%;
+  padding: 40px;
+  width: 400px;
+  margin-left: -200px;
+  background: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 2px;
+  z-index: 99999;
+  opacity: 1;
 }
 .account-form_close {
-    position: absolute;
-	top: -3px;
-    right: 11px;
-    color: #bfbfbf;
-    text-decoration: none;
-    font-size: 48px;
-    &:hover{
-        color: #49a3d9;
-    }
+  position: absolute;
+  top: -3px;
+  right: 11px;
+  color: #bfbfbf;
+  text-decoration: none;
+  font-size: 48px;
+  &:hover {
+    color: #49a3d9;
+  }
 }
-.account_heading{
-    font-family: $font-bold;
-    font-size: $font-size-desktop;
-    line-height:24px;
-    margin-bottom: 32px;
-
+.account_heading {
+  font-family: $font-bold;
+  font-size: $font-size-desktop;
+  line-height: 24px;
+  margin-bottom: 32px;
 }
-input[type="email"],
-input[type="password"]{
-    width: 100%;
-    padding: 19px 24px;
-    border: 2px solid #00468533;
-    border-radius: 8px;
-    margin-bottom: 16px;
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 19px 24px;
+  border: 2px solid #00468533;
+  border-radius: 8px;
+  margin-bottom: 16px;
 }
-input[type="email"]:focus,
-input[type="password"]:focus
-{
-    outline: none;
+input[type='email']:focus,
+input[type='password']:focus {
+  outline: none;
 }
-.account_button{
-    width: 100%;
-    font-family: $font-semi;
-    font-size: 24px;
-    background-color: #D30531 ;
-    color: #fff;
-    border-radius: 8px;
-    border: none;
-    margin-top: 7px;
-    margin-bottom: 20px;
-    padding: 14px 32px;
-    &:hover{
-        background-color: #E1133F;
-    }
+.account_button {
+  width: 100%;
+  font-family: $font-semi;
+  font-size: 24px;
+  background-color: #d30531;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  padding: 14px 32px;
+  &:hover {
+    background-color: #e1133f;
+  }
 }
-.account_link{
-    color: $link-color;
-    margin-top: 16px;
-    &:hover{
-        color: $link-hover;
-    }
+.account_link {
+  color: $link-color;
+  margin-top: 16px;
+  &:hover {
+    color: $link-hover;
+  }
 }
