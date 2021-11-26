@@ -111,6 +111,9 @@
   }
   .input-block {
     position: relative;
+    &:hover svg{
+      fill:$link-hover
+    }
   }
   .search-button {
     display: none;
@@ -125,6 +128,7 @@
     right: 3%;
     svg {
       width: 22px;
+      fill:$link-color
     }
   }
   .search-input {
