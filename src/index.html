@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   @@include('components/page-blocks/_head.html',{
-    "lang":"en",
+    "lang":"ru",
     "title":"This site title",
     "description":"Технологические решения оплаты государственных, муниципальных и жилищно-коммунальных услуг",
     "keywords":"portfolio,tasks"
@@ -12,11 +12,11 @@
     <main class="main">
       <!-- Экран с поиском -->
       <section class="bg-search-form">
-        <form class="search-form wrapper" action="" method="">
+        <form class="search-form wrapper" method="#">
           <h2 class="search-heading">Поиск начислений</h2>
           <div class="search-field">
-            <label class="input-block">
-              <input class="search-input" type="search" name="search" autofocus placeholder="Введите данные для поиска" />
+            <div class="input-block">
+              <input class="search-input" type="search" name="search" placeholder="Введите данные для поиска" />
               <button class="search-icon" type="submit">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <defs>
@@ -35,7 +35,7 @@
                   </g>
                 </svg>
               </button>
-            </label>
+            </div>
             <button class="search-button" type="submit">Найти</button>
           </div>
           <p class="search-description">Чем больше параметров введено, тем полнее результаты поиска</p>
